@@ -1,6 +1,3 @@
-# Docker + Node.js
-
-Dockerize a Node.js app. 
-
-Watch the full [Docker video](https://youtu.be/gAkwW2tuIqE) on YouTube or read the [Docker Tutorial](https://fireship.io/lessons/docker-basics-tutorial-nodejs/) on Fireship.io. 
-
+# Trick during nodejs programming
+* packages must install: `npm i -D nodemon`
+* the run dev mode: add `"dev": "nodemon index.js"`in `scripts ` in `package.json`, then use `npm run dev` the run the code
